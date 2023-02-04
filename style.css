@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .campaign-card {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero{
+    width : 100%;
+    height: 100vh;
+    background-image: url("crwd/crowd1.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+  }
+  
+  .menu-icon{
+    position: absolute;
+    top : 0;
+    left: 0;
+    width: 90px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px 25px;
+    cursor: pointer;
+
+  }
+
+  .sidebar{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(rgba(70,0,225,0.75), rgba(7,0,60,0.85));
+    padding: 20px 60px;
+    color: #fff;
+  }
+
+  .top-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  }
